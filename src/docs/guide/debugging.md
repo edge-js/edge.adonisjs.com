@@ -48,4 +48,4 @@ Run the Node server with the `--inspect` flag and use Chrome to debug.
 node ace serve --watch --node-args="--inspect"
 ```
 
-::video{url="https://res.cloudinary.com/adonis-js/video/upload/q_auto/v1618594355/v5/edge-debugger.mp4" controls}
+<video controls src="https://res.cloudinary.com/adonis-js/video/upload/q_auto/v1618594355/v5/edge-debugger.mp4"></video>

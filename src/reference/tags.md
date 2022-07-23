@@ -61,7 +61,7 @@ The `@debugger` tag is an inline tag. It drops the `debugger` keyword to the tem
 @debugger
 ```
 
-::video{url="https://res.cloudinary.com/adonis-js/video/upload/q_auto/v1618594355/v5/edge-debugger.mp4" controls}
+<video controls src="https://res.cloudinary.com/adonis-js/video/upload/q_auto/v1618594355/v5/edge-debugger.mp4"></video>
 
 ## each
 The `@each` tag let you loop over an array or an object of values.
@@ -211,7 +211,7 @@ The `@set` tag allows you to define local variables within the template scope or
 Following is the compiled output
 
 ```js
-let title = 'AdonisJS - A fully featured framework';
+const title = 'AdonisJS - A fully featured framework';
 ```
 
 Re-defining the same variable will update the existing value.
