@@ -1,0 +1,95 @@
+{
+  "name": "edge-documentation",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Julien Ripouteau <julien@ripouteau.com>",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "mrm": "mrm --preset=@adonisjs/mrm-preset",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "lint": "eslint . --ext=.{ts,vue}",
+    "lint:fix": "eslint . --fix",
+    "sync-labels": "github-label-sync --labels ./node_modules/@adonisjs/mrm-preset/gh-labels.json null",
+    "release": "np --message=\"chore(release): %s\"",
+    "version": "npm run build",
+    "format": "prettier --write .",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "@stackblitz/sdk": "^1.8.0",
+    "@vue/theme": "^1.0.4",
+    "shiki": "^0.10.1",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@adonisjs/mrm-preset": "^5.0.3",
+    "@iconify/json": "^2.1.78",
+    "@julr/eslint-config-prettier": "^0.3.1",
+    "@julr/eslint-config-vue": "^0.3.1",
+    "@octokit/core": "^4.0.4",
+    "@types/node": "^18.0.5",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.19.0",
+    "fs-extra": "^10.1.0",
+    "github-label-sync": "^2.2.0",
+    "husky": "^8.0.1",
+    "mrm": "^4.0.0",
+    "np": "^7.6.2",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "unocss": "^0.44.3",
+    "vite": "^2.9.0",
+    "vitepress": "1.0.0-alpha.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@types/react",
+        "react",
+        "react-dom",
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "@julr/eslint-config-vue",
+      "@julr/eslint-config-prettier"
+    ]
+  },
+  "mrmConfig": {
+    "core": true,
+    "license": "MIT",
+    "services": [
+      "github-actions"
+    ],
+    "minNodeVersion": "16.13.1",
+    "probotApps": [],
+    "runGhActionsOnWindows": false
+  },
+  "np": {
+    "contents": ".",
+    "anyBranch": false
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": false,
+    "quoteProps": "consistent",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "printWidth": 100
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
