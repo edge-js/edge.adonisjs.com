@@ -9,7 +9,7 @@ import { VPHomeFeatures } from 'vitepress/theme'
         class="text-gradient-primary flex flex-col items-center justify-center py-4 text-primary text-center text-5xl font-black mt-14 sm:flex-row"
       >
         <img class="mx-8 w-32 relative mb-8 sm:w-15 sm:-rotate-4 sm:mb-0" src="/edge-logo.png" />
-        <p class="">Edge.js</p>
+        <p>Edge.js</p>
       </div>
 
       <p class="mt-2 font-bold text-4xl">A templating engine with fresh air</p>
@@ -17,15 +17,9 @@ import { VPHomeFeatures } from 'vitepress/theme'
     </div>
 
     <div class="flex flex-col justify-center mt-6 sm:flex-row sm:space-x-3 space-y-4 sm:space-y-0">
-      <button class="text-white bg-primary px-4 py-1 rounded-full font-semibold">
-        What is Edge ?
-      </button>
-      <button class="px-4 py-1 rounded-full border-primary border font-semibold">
-        Get Started
-      </button>
-      <button class="px-4 py-1 rounded-full border-primary border font-semibold">
-        See on GitHub
-      </button>
+      <VPButton href="/docs/introduction/what-is-edge" tag="a" outline>What is Edge ?</VPButton>
+      <VPButton href="/docs/introduction/getting-started" tag="a">Get Started</VPButton>
+      <VPButton href="https://github.com/edge-js/edge" tag="a">See on GitHub</VPButton>
     </div>
   </div>
 
