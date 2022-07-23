@@ -71,7 +71,7 @@ Object.keys(GLOBALS).forEach((key) => edge.global(key, GLOBALS[key]))
 ```
 
 ## AdonisJS Installation
-For usage with AdonisJS please consult the [AdonisJS documentation](https://adonisjs.com/docs/edge).
+For usage with AdonisJS please consult the [AdonisJS documentation](https://docs.adonisjs.com/guides/views/introduction).
 
 ## Editor Extensions
 The following extensions will allow you to have syntax highlighting and possibly other cool features : 
