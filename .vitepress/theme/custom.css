@@ -4,3 +4,7 @@
   --vp-button-brand-bg: #fd833e;
   --vp-c-brand-dark: rgb(183 91 21);
 }
+
+.vp-doc .custom-block div[class*='language-'] code {
+  background: none;
+}

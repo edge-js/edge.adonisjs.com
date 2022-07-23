@@ -63,6 +63,7 @@ export default defineConfig({
             { text: 'Components', link: '/docs/guide/components' },
             { text: 'Mutations', link: '/docs/guide/mutations' },
             { text: 'Debugging', link: '/docs/guide/debugging' },
+            { text: 'Writing Plugins', link: '/docs/guide/plugins' },
           ],
         },
         {
