@@ -13,8 +13,4 @@ features:
     details: Edge is easily extensible thanks to its plugin system, custom loader and globals helpers. 
 ---
 
-<script setup>
-import Home from '/@theme/components/Home.vue'
-</script>
-
 <Home />
