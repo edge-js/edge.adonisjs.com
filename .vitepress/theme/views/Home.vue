@@ -23,11 +23,16 @@ import { VPHomeFeatures } from 'vitepress/theme'
     </div>
   </div>
 
-  <hr class="opacity-10 my-14" />
-
   <VPHomeFeatures class="my-8" />
 
-  <footer class="text-center text-xs mb-4">
+  <div class="container mx-auto px-8">
+    <img
+      class="m-auto"
+      src="https://raw.githubusercontent.com/thetutlage/static/main/sponsorkit/sponsors.svg"
+    />
+  </div>
+
+  <footer class="text-center text-xs py-5 border-t edge-border">
     Built with ❤️ by the
     <a href="http://adonisjs.com" target="_blank" class="font-semibold text-[#925ef7]"> AdonisJS</a>
     team.
