@@ -63,6 +63,7 @@ export default defineConfig({
             { text: 'Components', link: '/docs/guide/components' },
             { text: 'Mutations', link: '/docs/guide/mutations' },
             { text: 'Debugging', link: '/docs/guide/debugging' },
+            { text: 'Custom tags', link: '/docs/guide/custom-tags' },
             { text: 'Writing Plugins', link: '/docs/guide/plugins' },
           ],
         },
@@ -103,6 +104,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/edge-js/' },
       { icon: 'twitter', link: 'https://twitter.com/adonisframework' },
+      { icon: 'discord', link: 'https://discord.gg/vDcEjq6' },
     ],
 
     editLink: {
