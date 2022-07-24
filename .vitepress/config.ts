@@ -84,6 +84,7 @@ export default defineConfig({
             { text: 'Globals', link: '/reference/globals' },
             { text: 'Tags', link: '/reference/tags' },
             { text: 'Edge', link: '/reference/edge' },
+            { text: 'Parser', link: '/reference/parser' },
           ],
         },
       ],
